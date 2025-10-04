@@ -38,20 +38,21 @@ The detector is modeled as a **Finite State Machine (FSM)** and raises the outpu
      iverilog -o sq0110 sq0110.v tb_sq0110.v
      ```
 3. Run the simulation
-   ```
+      ```
       vvp sq0110
-   ```
+      ```
 4. Open the waveform in GTKWave
-   ```
+      ```
       gtkwave sq0110.vcd
-   ```
+      ```
 
 
 ## Example Input/Output :
-  ```
-Input (x):  0 0 1 1 0 1 1 0 0 1 1 0
-Output (z):          1       1
-  ```
+
+   ```
+    Input (x):  0 0 1 1 0 1 1 0 0 1 1 0
+    Output (z):          1       1
+   ```
 
 ## 🛠️ FSM Design
 Below is the **state machine diagram** for detecting the sequence `0110`:  
